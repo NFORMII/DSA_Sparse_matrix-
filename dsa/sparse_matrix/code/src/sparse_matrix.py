@@ -139,3 +139,9 @@ if __name__ == "__main__":
 
     except Exception as ex:
         print(f"Error: {ex}")
+        raise
+        # Handle exceptions and print error messages
+        # You can also log the error or take other actions as needed
+        # For example, you might want to log the error to a file or notify the user
+        # print(f"An error occurred: {ex}")
+        # raise
